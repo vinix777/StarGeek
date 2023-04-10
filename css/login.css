@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-image: url(../img/giffundo.gif);
+}
+
+.geral{
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.163);
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 15%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    margin-bottom: 10px;
+}
+
+.input{
+    background-color: rgba(255, 255, 255, 0.618);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    border: transparent;
+    box-shadow: 0px 0px 15px black;
+    border: 2px solid black;
+}
+
+.botao1{
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px black;
+    display: inline-block;
+    width: 40%;
+}
+
+.botao1:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.div1{
+    text-align: center;
+}
+
+.div2{
+    text-align: center;
+}

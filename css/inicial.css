@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(185, 185, 245);
+}
+
+.cabecalho{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    margin-bottom: 50px
+}
+
+.img-cabecalho{
+    width: 80px;
+    margin-right: 30px;
+}
+
+.botao-cabecalho{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+
+.botao-cabecalho:hover{
+    color: darkblue;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.musicas{
+    height: 132px;
+    background-color: rgba(0, 0, 0, 0.552);
+    border-radius: 15px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 150px;
+}
+
+h1{
+    margin-left: 150px;
+    margin-bottom: 70px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.botoes-musica{
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.nomes-musicas{
+    display: flex;
+}
+
+.nomes-musicas > div{
+    padding-top: 35px;
+}
+
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+
+.img-grao{
+    width: 130px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.img-agro{
+    width: 130px;
+    height: 105px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.img-1kilo{
+    width: 130px;
+    height: 105px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.img-buteco{
+    width: 130px;
+    height: 105px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.img-ram{
+    width: 130px;
+    height: 105px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.botao-reproduzir{
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px black;
+    margin-right: 15px;
+    color: #000000;
+}
+
+.botao-reproduzir:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.botao-adicionar{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px black;
+    margin-right: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #000000;
+}
+
+.botao-adicionar:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.inputbox {
+    position: relative;
+    width: 196px;
+  }
+  
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: #45f3ff;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 0,75em;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #45f3ff;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 44px;
+  }
+
+  .button {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #000000;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #000000;
+  transition: 0.5s;
+}
+
+.button:hover::before, .button:hover::after {
+  transform: scale(0)
+}
+
+.button:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
+}

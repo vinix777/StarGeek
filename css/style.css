@@ -68,6 +68,11 @@ h1{
     box-shadow: 0px 0px 10px black;
 }
 
+.botao2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 main{
     width: 600px;
     margin: 0 auto;

@@ -5,13 +5,13 @@
     font-family: 'roboto', sans-serif;
 }
 
-body{
+body {
     background-image: url(../img/giffundo.gif);
 }
 
-.cabecalho{
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(53, 51, 51, 0) 1%, rgba(255,255,255,0.468312324929972) 37%, rgba(255,255,255,0.7232142857142857) 73%);
+.cabecalho {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(53, 51, 51, 0) 1%, rgba(255, 255, 255, 0.468312324929972) 37%, rgba(255, 255, 255, 0.7232142857142857) 73%);
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -19,14 +19,14 @@ body{
     margin-bottom: 170px;
 }
 
-.img-cabecalho{
+.img-cabecalho {
     width: 80px;
     margin-right: 30px;
 }
 
 
 
-.botao1{
+.botao1 {
     background-color: darkblue;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -36,19 +36,19 @@ body{
     box-shadow: 0px 0px 10px black;
 }
 
-.botao1:hover{
+.botao1:hover {
     background-color: black;
     color: white;
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
     margin-bottom: 60px;
     margin-top: 30px;
 }
 
-.input{
+.input {
     background-color: rgba(255, 255, 255, 0.618);
     padding: 10px;
     border-radius: 10px;
@@ -59,68 +59,92 @@ h1{
     border: 2px solid black;
 }
 
-.botao2{
+.botao2 {
     background-color: darkblue;
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 8px;
-    padding: 10px 100px ;
+    padding: 10px 100px;
     box-shadow: 0px 0px 10px black;
     margin-bottom: 100px;
 }
 
-.botao2:hover{
+.botao2:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-main{
-    width: 600px;
+main {
+    max-width: 600px;
     margin: 0 auto;
     background-color: transparent;
     text-align: center;
     margin-bottom: 100px;
 }
 
-hr{
+hr {
     height: 15px;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 53%, rgba(255,255,255,0.7092086834733893) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 53%, rgba(255, 255, 255, 0.7092086834733893) 100%);
     border: transparent;
     margin-bottom: 60px;
 }
 
-.img-nota1{
+.img-nota1 {
     margin-left: 100px;
 }
 
-.nota1{
+.nota1 {
     margin-bottom: 70px;
     display: flex;
     align-items: center;
 }
 
-.nota2{
+.nota2 {
     margin-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.nota2 > img {
+
+.nota2>img {
     margin-left: 10px;
     margin-right: 100px;
 }
 
-h2{
+h2 {
     color: white;
     text-shadow: 0px 0px 10px white;
 }
 
-p{
+p {
     color: white;
     text-shadow: 0px 0px 10px white;
 }
 
-.p1{
+.p1 {
     margin-left: 50px;
+}
+
+@media (max-width: 500px) {
+    .img-cabecalho {
+        margin-right: 0;
+        width: 60px;
+        margin-bottom: 0;
+    }
+
+    .cabecalho {
+        padding-left: 4px;
+        padding-top: 4px;
+        padding-bottom: 0px;
+    }
+
+    .img-nota1 {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .nota2>img {
+        margin-right: 4px;
+    }
 }

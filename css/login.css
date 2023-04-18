@@ -5,11 +5,11 @@
     font-family: 'roboto', sans-serif;
 }
 
-body{
+body {
     background-image: url(../img/giffundo.gif);
 }
 
-.geral{
+.geral {
     border-radius: 8px;
     padding: 20px;
     width: 600px;
@@ -20,14 +20,14 @@ body{
     margin-top: 15%;
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
     text-shadow: 0px 0px 10px black;
     margin-bottom: 10px;
 }
 
-.input{
+.input {
     background-color: rgba(255, 255, 255, 0.618);
     padding: 10px;
     border-radius: 10px;
@@ -38,7 +38,7 @@ h1{
     border: 2px solid black;
 }
 
-.botao1{
+.botao1 {
     background-color: white;
     padding: 10px;
     text-decoration: none;
@@ -49,15 +49,26 @@ h1{
     width: 40%;
 }
 
-.botao1:hover{
+.botao1:hover {
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
-.div1{
+.div1 {
     text-align: center;
 }
 
-.div2{
+.div2 {
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .geral {
+        margin-top: 250px;
+        width: 300px;
+    }
+
+    .botao1 {
+        font-size: 12px;
+    }
 }

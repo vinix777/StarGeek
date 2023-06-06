@@ -13,19 +13,22 @@
     <header class="cabecalho">
         <nav class="menu">
             <img src="img/logo2.jpg" alt="" class="img-cabecalho">
-            <a href="index.html" class="button">Início</a>
+            <a href="#" class="button" onclick="inicio()">Início</a>
+            <a href="#" class="button" onclick="cadastrar()">Cadastrar Música</a>
             <div class="inputbox">
                 <input required="required" type="text">
                 <span>Pesquisar</span>
                 <i></i>
             </div>
         </nav>
-        <a href="index.html" class="button">Sair</a>
+
+        <a href="#" class="button" onclick="sair()">Sair</a>
+
     </header>
 
     <h1>Músicas</h1>
 
-    <main>
+    <main id="lista-musicas">
         <div class="musicas">
             <div class="nomes-musicas">
                 <img src="img/grao de areia.jpg" alt="" class="img-grao">
@@ -101,7 +104,13 @@
             </div>
         </div>
 
+
+
+
     </main>
 </body>
+
+<script src="midia-inicial.js"></script>
+
 
 </html>

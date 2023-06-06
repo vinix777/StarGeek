@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/login.css">
+    <script src="cadastro-login.js"></script>
 </head>
 
 <body>
     <div class="geral">
         <h1>Cadastro</h1>
-        <input type="email" placeholder="Nome" class="input"><br>
-        <input type="email" placeholder="Email" class="input"><br>
-        <input type="email" placeholder="Senha" class="input"><br>
-        <input type="email" placeholder="Confirmar Senha" class="input">
+        <input type="email" id="nome" placeholder="Nome" class="input"><br>
+        <input type="email" id="usuario" placeholder="Email" class="input"><br>
+        <input type="password" id="senha" placeholder="Senha" class="input"><br>
+        <input type="password" id="confirmeSenha" placeholder="Confirmar Senha" class="input">
         <br>
         <div class="div1">
-            <a href="inicial.html" class="botao1"><b>Entrar</b></a>
+            <a href="#" class="botao1" onclick="cadastro()"><b>Entrar</b></a>
         </div>
     </div>
 </body>

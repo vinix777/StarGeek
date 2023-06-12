@@ -61,10 +61,10 @@ function exibirMusicas() {
         document.getElementById('lista-musicas').innerHTML +=
             `<div class="musicas">
                 <div class="nomes-musicas">
-                    <img src="${item.link}" alt="" class="img-buteco">
+                    <img src="${item.link}" alt="" class="imgMusicas">
                     <div>
-                        <h2>${item.nome}</h2>
-                        <p>${item.descrição}</p>
+                        <h2 class='h2-musicas'>${item.nome}</h2>
+                        <p class='p-musicas'>${item.descrição}</p>
                     </div>
                 </div>
                 <div class="botoes-musica">
@@ -94,36 +94,3 @@ function sair(){
     location.href = "index.html"
 }
 
-
-
-/* 
-
-var musicas = []
-var linkImagens = []
-var linkMsc = []
-
-function botaoCadastrar(){
-    var nome = document.getElementById("nome").value
-    var LinkMusica = document.getElementById("linkMusica")
-    var LinkImg = document.getElementById("linkImg").value  
-    filmes.push(nome)
-    link.push(linkImg)
-    linkMsc.push(LinkMusica)
-    document.getElementById('resultado').innerHTML = ''
-
-    for ( var i = 0; i < filmes.length ; i++) {
-        document.getElementById('resultado').innerHTML += `<div class="musicas">
-        <div class="nomes-musicas">
-            <img src="${linkImagens[i]}" alt="" class="img-agro">
-            <div>
-                <h2>${musicas}</h2>
-            </div>
-        </div>
-        <div class="botoes-musica">
-            <a href="${linkMsc[i]}" class="botao-reproduzir"><img src="img/arrow-right.svg" alt="">Reproduzir</a>
-            <a href="#" class="botao-adicionar"><img src="img/add-to-list.svg" alt="">Adicionar</a>
-        </div>
-    </div>`
-    }
-
-}   */

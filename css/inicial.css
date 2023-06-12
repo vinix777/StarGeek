@@ -81,27 +81,7 @@ p {
     color: white;
 }
 
-.img-grao {
-    width: 130px;
-    border-radius: 8px;
-    margin: 15px;
-}
-
-.img-agro {
-    width: 130px;
-    height: 105px;
-    margin: 15px;
-    border-radius: 8px;
-}
-
-.img-1kilo {
-    width: 130px;
-    height: 105px;
-    margin: 15px;
-    border-radius: 8px;
-}
-
-.img-buteco {
+.imgMusicas {
     width: 130px;
     height: 105px;
     margin: 15px;
@@ -204,7 +184,7 @@ p {
 }
 
 .button {
-    width: 10em;
+    width: 8em;
     position: relative;
     height: 3.5em;
     border: 3px ridge #149CEA;
@@ -281,4 +261,32 @@ p {
         margin-right: 10px;
         width: 5em;
     }
+
+    .musicas {
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .h2-musicas {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .p-musicas {
+        margin-bottom: 20px;
+    }
+
+    .nomes-musicas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
+
+.img-add {
+    width: 15px;
+    margin-right: 5px;
+}
+
